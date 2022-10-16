@@ -52,7 +52,7 @@ and left sides of the text */
 <h1 style="color:#0074bc">Papers</h1>
 <!-- <div class="section_header">Conferences</div> -->
 <div class="divider"><div style="color:#787878">RA @ UMass Lowell</div></div>
-<li><b>[HPDC'2019]XBFS: eXploring Runtime Optimizations for Breadth-First Search on GPUs. <a href="http://zlwu92.github.io/files/XBFS.pdf" target="_blank"><img src="http://zlwu92.github.io/images/acrobat-pro.png"></a></b>
+<li><b>[HPDC'2019]XBFS: eXploring Runtime Optimizations for Breadth-First Search on GPUs. <a href="https://dl.acm.org/doi/pdf/10.1145/3307681.3326606" target="_blank"><img src="http://zlwu92.github.io/images/acrobat-pro.png"></a></b>
 <!--  <a href="http://zlwu92.github.io/files/XBFS.pdf"><img src="https://img.shields.io/badge/-PDF-red" height="35px"></a> -->
 <br> Anil Gaihre, <u>Zhenlin Wu</u>, Fan Yao, Hang Liu. 
 <br> Proceedings of the 28th International Symposium on High-Performance Parallel and Distributed Computing June 2019 Pages 121–131.
