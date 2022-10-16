@@ -1,0 +1,66 @@
+{% include base_path %}
+
+<!-- <div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+    {% if site.twitter.username %}
+      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-brands fa-twitter-square" aria-hidden="true" style="color:rgb(0, 100, 200)"></i> Twitter</a></li>
+    {% endif %}
+    {% if site.facebook.username %}
+      <li><a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-brands fa-facebook-square" aria-hidden="true" style="color:rgb(0, 200, 200)"></i> Facebook</a></li>
+    {% endif %}
+    {% if site.linkedin.username %}
+      <li><a href="https://www.linkedin.cn/incareer/in/{{ site.linkedin.username }}"><i class="fab fa-brands fa-linkedin" aria-hidden="true" style="color:rgb(0, 100, 200)"></i> Linkedin</a></li>
+    {% endif %} -->
+<!--     {% if site.author.github %}
+      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %} -->
+<!--     <a href="https://github.com/zlwu92">
+      <img src="https://img.shields.io/badge/dynamic/json?label=GitHub&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dzlwu92&labelColor=grey&color=181717&logo=github&longCache=true&style=flat-square&suffix=%20Followers">
+    </a> -->
+    <!-- {% if site.author.bitbucket %}
+      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% endif %}
+  </ul>
+</div> -->
+<!-- ©  -->
+<div class="page__footer-copyright"><center>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. All rights reserved. 
+</center>
+<center>
+<!-- <body onload="myFunction()">
+  <font color="#C0C0C0"">Last updated <span id="demo"></span></font>
+  <script>
+    function myFunction() {
+      var x = document.lastModified;
+      // document.getElementById("demo").innerHTML = x;
+      // document.write(" " + x.substr(0, 10));
+      var d = new Date(document.lastModified);
+      document.getElementById("demo").innerHTML = d.toLocaleDateString();
+    }
+  </script>
+</body> -->
+<!-- <body onload="myFunction()">
+  <font color="#C0C0C0"">Last updated <span id="demo"></span></font>
+  <script>
+    function myFunction() {
+      var today = new Date();
+      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      // var dateTime = date+' '+time;
+      var cur_date = date;
+      document.getElementById("demo").innerHTML = cur_date;
+    }
+  </script>
+</body> -->
+<body>
+  <font>Current datetime: <span id="datetime"></span></font>
+  <!-- <div id="datetime"> -->
+    <script>
+        setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+    </script>
+  <!-- </div> -->
+</body>
+</center>
+</div>
