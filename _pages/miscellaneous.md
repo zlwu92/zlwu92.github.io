@@ -5,8 +5,7 @@ permalink: /miscellaneous/
 author_profile: true
 ---
 {% include base_path %}
-- In my spare time, I usually love playing basketball and also have fun with my family <i class='fas fa-smile-beam' style='font-size:24px;color:yellow'></i>.   
-  I have a lovely <a href="https://zlwu92.github.io/images/xxx" style="text-decoration:none">baby</a>.  
+- In my spare time, I usually love playing basketball and also have fun with my family <i class='fas fa-smile-beam' style='font-size:24px;color:yellow'></i>. 
 
 <style type="text/css" rel="stylesheet">
 .section_header {
