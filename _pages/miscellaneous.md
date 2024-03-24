@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include base_path %}
 - In my spare time, I usually love playing basketball and also have fun with my family <i class='fas fa-smile-beam' style='font-size:24px;color:yellow'></i>.   
-  I have a lovely <a href="https://zlwu92.github.io/images/son2.jpeg" style="text-decoration:none">baby</a> whose name is <a href="https://zlwu92.github.io/images/son1.jpeg" style="text-decoration:none">吴牧源</a>.  
+  I have a lovely <a href="https://zlwu92.github.io/images/xxx" style="text-decoration:none">baby</a>.  
 
 <style type="text/css" rel="stylesheet">
 .section_header {
